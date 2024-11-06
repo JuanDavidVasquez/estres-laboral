@@ -295,6 +295,87 @@ button:hover {
     background-color: #34495e;
 }
 
+
+/* Ahorcado Game Section */
+#hangman-game {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+#hangman-game h2 {
+    color: #2980b9;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#hangman-game p {
+    color: #4a4a4a;
+    font-size: 1.1rem;
+}
+
+#word-container {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #34495e;
+}
+
+#keyboard-container {
+    margin-bottom: 20px;
+}
+
+.letter-btn {
+    background-color: #1e88e5;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.letter-btn:hover {
+    background-color: #1565c0;
+}
+
+#lives-left {
+    font-size: 1.2rem;
+    color: #e74c3c;
+    margin-top: 15px;
+}
+
+#hangman-drawing {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #e74c3c;
+}
+
+#reset-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#reset-button:hover {
+    background-color: #388e3c;
+}
+
+#word-counter {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
 /* Footer Styles */
 footer {
     text-align: center;
