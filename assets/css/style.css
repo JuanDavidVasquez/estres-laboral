@@ -16,8 +16,7 @@ body {
     overflow-x: hidden;
 }
 .img-fixed{
-    max-width: 150px
-    heigth:200px;
+    width: 150px
     position: fixed;
     top: 0px;
     right: 0%;
@@ -430,9 +429,10 @@ footer a:hover {
 /* Responsive Styles */
 @media (max-width: 768px) {
     .img-fixed{
+        width:"100px";
         position: fixed;
-        top: 25px;
-        right: -10%;
+        top: 0px;
+        right: -5%;
         filter:opacity(.2)
     }
     header h1 {
