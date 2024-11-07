@@ -16,8 +16,10 @@ body {
     overflow-x: hidden;
 }
 .img-fixed{
+    max-width: 150px
+    heigth:200px
     position: fixed;
-    top: 25px;
+    top: 0px;
     right: 0%;
     filter:opacity(.2)
 }
